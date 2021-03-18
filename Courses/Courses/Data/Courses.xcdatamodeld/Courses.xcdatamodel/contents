@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Register" representedClassName="Register" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="phoneNmr" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WishList" representedClassName="WishList" syncable="YES">
+        <attribute name="course" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="courseInfo" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="courseLenght" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="education" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Register" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="WishList" positionX="-54" positionY="18" width="128" height="89"/>
+    </elements>
+</model>
